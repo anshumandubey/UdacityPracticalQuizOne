@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/appbg"
+        android:scaleType="centerCrop"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:id="@+id/username_text"
+        android:background="@drawable/corners"
+        android:textColorHint="#f4f4f4"
+        android:textColor="#f4f4f4"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:id="@+id/email_text"
+        android:background="@drawable/corners"
+        android:textColorHint="#f4f4f4"
+        android:textColor="#f4f4f4"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="textLongMessage"
+        android:hint="@string/write_about_yourself"
+        android:textColorHint="#f4f4f4"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:padding="8dp"
+        android:id="@+id/about_yourself"
+        android:background="@drawable/corners"
+        android:textColor="#efa746"
+        />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:text="@string/next"
+        android:background="@drawable/corner_big"
+        android:textColor="#3E5253"
+       />
+
+
+
+</RelativeLayout>
